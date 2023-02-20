@@ -1,0 +1,517 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : 01/05/2020, 21:54:13
+    Author     : daril
+*/
+
+
+/**  Generales **/
+
+
+/*
+Menu Footer #04463F
+Letras como menu #006066
+Fondo #6b9987
+Negro no negro #1e272e
+
+*/
+
+:root {
+    --color-principal: #04463F;
+    --color-secundario: #006066;
+    --color-terciario: #6b9987;
+    --color-blanco: #FFFFFF;
+    --color-nonegro: #1e272e;
+    --color-negro: #000000;
+    --color-noblanco: #f3f3f3;
+    --color-auxiliar: #e6e6e6;
+    --tipografia-roboto: 'Roboto', sans-serif;
+    --tipografia-nunito: 'Nunito', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--tipografia-nunito);
+    font-size: 10px;
+}
+
+input {
+    text-decoration: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: radial-gradient(circle, var(--color-auxiliar), var(--color-noblanco));
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    color: var(--color-negro);
+    font-size: 2em;
+}
+
+
+/*contenedores*/
+
+.contenedor-index {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.contenedor-parcial {
+    padding-top: 2em;
+    width: 90%;
+    max-width: 96em;
+    margin: auto;
+}
+
+.contenedor-foto {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-video {
+    padding-top: 2em;
+    width: 100%;
+    position: relative;
+}
+
+.contenedor-juegos {
+    padding-top: 2em;
+    width: 90%;
+    max-width: 96em;
+    margin: auto;
+}
+
+.contenedor-sobremi {
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-menu {
+    width: 100%;
+    height: auto;
+    background: var(--color-principal);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-bottom: auto;
+}
+
+.contenedor-footer {
+    width: 100%;
+    background-color: var(--color-principal);
+    position: fixed;
+    color: var(--color-blanco);
+    bottom: 0;
+}
+
+
+/* Menu */
+
+.menu {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: var(--color-blanco);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu a span {
+    font-size: .8em;
+    padding: 10px;
+}
+
+.menu a {
+    font-size: 2em;
+    padding: 10px;
+    color: var(--color-blanco);
+}
+
+
+/** footer **/
+
+.footer {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.item-footer {
+    padding: 1em;
+}
+
+.redes-sociales a {
+    width: 2em;
+    height: 2em;
+    color: var(--color-blanco);
+    margin: 10px;
+    text-align: center;
+}
+
+.redes-sociales a span {
+    font-size: 3em;
+}
+
+.autor {
+    font-size: 2em;
+    color: var(--color-noblanco);
+    padding-bottom: 1em;
+    letter-spacing: 0.25em;
+}
+
+
+/*index*/
+
+.index {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.index-section {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.item-index img {
+    width: 100%;
+    padding-top: 10em;
+}
+
+.item-index p {
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: 1em;
+    text-align: center;
+    color: var(--color-noblanco);
+}
+
+.index-logo {
+    padding: 2em 0;
+}
+
+
+/***************   Proyectos *********************/
+
+.header-proyectos {
+    padding: 2em 0;
+}
+
+.header-proyectos .logo-proyectos {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.header-proyectos .logo-proyectos h1 {
+    color: var(--color-negro);
+    font-size: 2em;
+}
+
+.header-proyectos .logo-proyectos p {
+    color: var(--color-negro);
+    font-size: 1.5em;
+}
+
+.header-proyectos .categorias-proyectos {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.header-proyectos .categorias-proyectos a {
+    color: var(--color-negro);
+    margin: 1em 2em;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.header-proyectos .categorias-proyectos a.active {
+    color: var(--color-principal);
+    font-size: 2em;
+}
+
+.header-proyectos .categorias-proyectos a:hover {
+    color: var(--color-principal);
+    font-size: 2em;
+}
+
+
+/*grid proyectos */
+
+.grid {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s linear 0.5s;
+}
+
+.grid.imagenes-cargadas {
+    opacity: 1;
+}
+
+.grid .item {
+    position: absolute;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    width: calc(33.3333% - 20px);
+}
+
+.grid .item-contenido {
+    position: relative;
+}
+
+.grid .item img {
+    width: 100%;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+
+/* Inicio */
+
+#particles-js {
+    background-image: radial-gradient(circle, var(--color-principal), var(--color-secundario));
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 700px) {
+    .grid .item {
+        width: calc(50% - 20px);
+    }
+    #particles-js {
+        display: none;
+    }
+    .contenedor-index {
+        background-image: radial-gradient(circle, var(--color-auxiliar), var(--color-noblanco));
+    }
+    .item-index p {
+        color: var(--color-negro);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #particles-js {
+        display: none;
+    }
+    .contenedor-index {
+        background-image: radial-gradient(circle, var(--color-auxiliar), var(--color-noblanco));
+    }
+    .item-index p {
+        color: var(--color-negro);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .grid .item {
+        width: calc(100% - 20px);
+    }
+    #particles-js {
+        display: none;
+    }
+    .contenedor-index {
+        background-image: radial-gradient(circle, var(--color-auxiliar), var(--color-noblanco));
+    }
+    .item-final {
+        margin-bottom: 15em;
+    }
+    .item-index p {
+        color: var(--color-negro);
+    }
+}
+
+
+/* Sobre mi*/
+
+.sobremi {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    z-index: 0;
+    margin-top: 2em;
+}
+
+.sobremi p {
+    padding: 2em 25%;
+    text-align: left;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+.sobremi h3 {
+    padding-top: 2em;
+    text-align: center;
+}
+
+
+/* Proyectos Video*/
+
+.video {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video h1 {
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.video h3 {
+    font-size: 2em;
+}
+
+.video p {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    padding: 1em;
+}
+
+.elaborado p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.elaborado {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.elaborado section span {
+    font-size: 2em;
+    margin: 1em 1em;
+}
+
+.elaborado p {
+    font-size: 1em;
+}
+
+
+/* Proyectos Fotografia*/
+
+.titulo {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    padding: 2em;
+}
+
+.fotos {
+    padding: 0;
+    margin: 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fotos .item-foto {
+    align-items: center;
+}
+
+.fotos .item-foto img {
+    width: 50%;
+    vertical-align: top;
+}
+
+.fotos .item-foto p {}
+
+
+/*Proyectos Desarrollo*/
+
+.desarrollo {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*Proyectos Desarrollo*/
+
+.contenedor-juegos .juegos {
+    display: block;
+    position: absolute;
+    padding: em;
+    width: 60%;
+    margin: auto;
+}
+
+.contenedor-juegos .juegos .juegos-items {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+.contenedor-juegos .juegos .juegos-items {
+    font-size: 2em;
+}
+
+.contenedor-juegos .juegos .juegos-items img {
+    width: 66%;
+}

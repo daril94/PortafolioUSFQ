@@ -1,0 +1,237 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?qqnimi');
+  src:  url('fonts/icomoon.eot?qqnimi#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?qqnimi') format('truetype'),
+    url('fonts/icomoon.woff?qqnimi') format('woff'),
+    url('fonts/icomoon.svg?qqnimi#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-adobe:before {
+  content: "\e900";
+  color: #f00;
+}
+.icon-adobeacrobatreader:before {
+  content: "\e901";
+  color: #ee3f24;
+}
+.icon-adobeaftereffects:before {
+  content: "\e902";
+  color: #d291ff;
+}
+.icon-adobeaudition:before {
+  content: "\e903";
+  color: #00e4bb;
+}
+.icon-adobecreativecloud:before {
+  content: "\e904";
+  color: #d41818;
+}
+.icon-adobedreamweaver:before {
+  content: "\e905";
+  color: #35fa00;
+}
+.icon-adobeillustrator:before {
+  content: "\e906";
+  color: #ff7c00;
+}
+.icon-adobeindesign:before {
+  content: "\e907";
+  color: #fd3f93;
+}
+.icon-adobelightroomcc:before {
+  content: "\e908";
+  color: #3df0f0;
+}
+.icon-adobelightroomclassic:before {
+  content: "\e909";
+  color: #add5ec;
+}
+.icon-adobephotoshop:before {
+  content: "\e90a";
+  color: #00c8ff;
+}
+.icon-adobepremiere:before {
+  content: "\e90b";
+  color: #ea77ff;
+}
+.icon-adobetypekit:before {
+  content: "\e90c";
+  color: #87ec00;
+}
+.icon-adobexd:before {
+  content: "\e90d";
+  color: #ff2bc2;
+}
+.icon-android:before {
+  content: "\e90e";
+  color: #3ddc84;
+}
+.icon-angular:before {
+  content: "\e90f";
+  color: #dd0031;
+}
+.icon-css3:before {
+  content: "\e910";
+  color: #1572b6;
+}
+.icon-facebook:before {
+  content: "\e911";
+  color: #1877f2;
+}
+.icon-github:before {
+  content: "\e912";
+}
+.icon-html5:before {
+  content: "\e913";
+  color: #e34f26;
+}
+.icon-instagram:before {
+  content: "\e914";
+  color: #e4405f;
+}
+.icon-java:before {
+  content: "\e915";
+  color: #007396;
+}
+.icon-javascript:before {
+  content: "\e916";
+  color: #f7df1e;
+}
+.icon-linkedin:before {
+  content: "\e917";
+  color: #0077b5;
+}
+.icon-microsoftaccess:before {
+  content: "\e926";
+  color: #ba141a;
+}
+.icon-microsoftexcel:before {
+  content: "\e927";
+  color: #217346;
+}
+.icon-microsoftoffice:before {
+  content: "\e928";
+  color: #e74025;
+}
+.icon-microsoftonedrive:before {
+  content: "\e929";
+  color: #094ab2;
+}
+.icon-microsoftonenote:before {
+  content: "\e92a";
+  color: #80397b;
+}
+.icon-microsoftoutlook:before {
+  content: "\e92b";
+  color: #0072c6;
+}
+.icon-microsoftpowerpoint:before {
+  content: "\e92c";
+  color: #d24726;
+}
+.icon-microsoftteams:before {
+  content: "\e92d";
+  color: #6264a7;
+}
+.icon-microsoftword:before {
+  content: "\e92e";
+  color: #2b579a;
+}
+.icon-mysql:before {
+  content: "\e918";
+  color: #4479a1;
+}
+.icon-node-dot-js:before {
+  content: "\e919";
+  color: #393;
+}
+.icon-php:before {
+  content: "\e91a";
+  color: #777bb4;
+}
+.icon-python:before {
+  content: "\e91b";
+  color: #3776ab;
+}
+.icon-twitter:before {
+  content: "\e91c";
+  color: #1da1f2;
+}
+.icon-youtube:before {
+  content: "\e91d";
+  color: #f00;
+}
+.icon-zoom:before {
+  content: "\e91e";
+  color: #2d8cff;
+}
+.icon-home3:before {
+  content: "\e91f";
+}
+.icon-pen:before {
+  content: "\e920";
+}
+.icon-blog:before {
+  content: "\e921";
+}
+.icon-eyedropper:before {
+  content: "\e922";
+}
+.icon-images:before {
+  content: "\e923";
+}
+.icon-camera:before {
+  content: "\e924";
+}
+.icon-video-camera:before {
+  content: "\e925";
+}
+.icon-price-tag:before {
+  content: "\e935";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-pushpin:before {
+  content: "\e946";
+}
+.icon-printer:before {
+  content: "\e954";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-laptop:before {
+  content: "\e957";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
